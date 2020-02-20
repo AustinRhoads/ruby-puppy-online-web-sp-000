@@ -10,4 +10,8 @@ def self.all
   @@all
 end
 
+def this.clear_all 
+@@all = []
+end
+
 end
