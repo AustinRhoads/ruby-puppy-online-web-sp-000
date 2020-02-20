@@ -10,7 +10,7 @@ def self.all
   @@all
 end
 
-def this.clear_all 
+def this.clear_all
 @@all = []
 end
 
