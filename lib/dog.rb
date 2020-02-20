@@ -11,7 +11,7 @@ def self.all
 end
 
 def this.clear_all
-@@all = []
+@@all.clear
 end
 
 end
