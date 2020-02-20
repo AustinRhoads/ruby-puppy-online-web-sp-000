@@ -22,4 +22,9 @@ def self.print_all
 @@all.each {|obj| puts obj.name}
 end
 
+def save
+@@all << self
+end
+
+
 end
